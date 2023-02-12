@@ -6,11 +6,11 @@ export default class TodoList extends Component {
         const {
             items,
             updateTodosToShow,
-            clearList,
+
             handleDelete,
             handleEdit,
             handleDoneTask,
-            handleDeleteDoneTasks
+
         } = this.props
 
         return (
@@ -67,26 +67,7 @@ export default class TodoList extends Component {
                             })
                         }
 
-                        <div className="row mt-4">
-                            <div className="col-md-6">
-                                <button 
-                                    type="button"
-                                    className="btn btn-danger btn-block mt-1"
-                                    onClick={handleDeleteDoneTasks}
-                                >
-                                    Delete done tasks
-                                </button>
-                            </div>
-                            <div className="col-md-6">
-                                <button 
-                                    type="button"
-                                    className="btn btn-danger btn-block mt-1"
-                                    onClick={clearList}
-                                >
-                                    Delete all tasks
-                                </button>
-                            </div>
-                        </div>
+
                     </ul>
                 }
             </Fragment>

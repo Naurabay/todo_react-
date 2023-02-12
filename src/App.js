@@ -24,6 +24,11 @@ class App extends Component {
 		})
 	}
 
+
+
+
+
+
 	handleSubmit = event => {
 		event.preventDefault()
 		
@@ -118,11 +123,11 @@ class App extends Component {
 							handleChange={this.handleChange}
 							handleSubmit={this.handleSubmit}
 						/>
-						<SearchComponent/>
+						<SearchComponent searchValue={this.state.item} setSearchValue={this.handleChange} />
 						<TodoList
 							items={items}
 							filterDoneTasks={this.filterDoneTasks}
-							clearList={this.clearList}
+
 							handleDelete={this.handleDelete}
 							handleEdit={this.handleEdit}
 							handleDoneTask={this.handleDoneTask}
