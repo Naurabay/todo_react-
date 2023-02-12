@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Naurabay/todo_react-.git/static/css/main.b68d77e0.css",
+    "main.js": "/Naurabay/todo_react-.git/static/js/main.70878ba6.js",
+    "index.html": "/Naurabay/todo_react-.git/index.html",
+    "main.b68d77e0.css.map": "/Naurabay/todo_react-.git/static/css/main.b68d77e0.css.map",
+    "main.70878ba6.js.map": "/Naurabay/todo_react-.git/static/js/main.70878ba6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b68d77e0.css",
+    "static/js/main.70878ba6.js"
+  ]
+}
